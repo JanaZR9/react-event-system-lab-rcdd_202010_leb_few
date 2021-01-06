@@ -2,7 +2,7 @@
 import react, {Component} from 'react';
 export default class EyesOnMe extends Component{
   
-  const handleFocus = () => {
+ handleFocus = () => {
     
   }
   render () {
