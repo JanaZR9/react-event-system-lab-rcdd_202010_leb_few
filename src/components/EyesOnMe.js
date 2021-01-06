@@ -2,8 +2,8 @@
 import react, {Component} from 'react';
 export default class EyesOnMe extends Component{
   
- handleFocus = () => {
-    
+ handleFocus = (e) => {
+    console.log('Good!');
   }
   render () {
     return (
