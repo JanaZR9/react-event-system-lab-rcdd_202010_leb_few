@@ -2,7 +2,12 @@
 import react, {Component} from 'react';
 
 export default class Keypad extends Component{
-  const input = () => {
-    return <input type="password">;
+  const Input = () => {
+    return (<input type="password" />);
+  }
+  
+  render(){
+    return (
+      <Input/>)
   }
 }
