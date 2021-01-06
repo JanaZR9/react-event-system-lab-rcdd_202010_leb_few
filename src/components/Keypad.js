@@ -6,6 +6,10 @@ export default class Keypad extends Component{
     return (<input type="password" />);
   }
   
+  handleKey = () => {
+    
+  }
+  
   render(){
     return (
       <Input onKeyUp="handleKey"/>)
