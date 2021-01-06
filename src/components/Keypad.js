@@ -7,7 +7,8 @@ export default class Keypad extends Component{
   }
   
   handleKey = (e) => {
-    const k = e.
+    const k = e.KeyCode;
+    console.log('Entering password...')
   }
   
   render(){
