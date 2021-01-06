@@ -5,9 +5,13 @@ export default class EyesOnMe extends Component{
  handleFocus = (e) => {
     console.log('Good!');
   }
+  
+  handleBlur = () => {
+    console.log('Hey! Eyes on me!')
+  }
   render () {
     return (
-      <button onFocus="" onBlur=""> </button>
+      <button onFocus={this.handleFocus} onBlur={this.handleBlur}> </button>
       )
   }
 }
