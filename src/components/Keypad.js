@@ -6,8 +6,8 @@ export default class Keypad extends Component{
     return (<input type="password" />);
   }
   
-  handleKey = () => {
-    
+  handleKey = (e) => {
+    const k = e.
   }
   
   render(){
