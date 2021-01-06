@@ -13,6 +13,6 @@ export default class Keypad extends Component{
   
   render(){
     return (
-      <Input onKeyUp="handleKey"/>)
+      <Input onKeyUp={this.handleKey}/>)
   }
 }
